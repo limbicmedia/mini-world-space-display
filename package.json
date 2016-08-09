@@ -1,0 +1,23 @@
+{
+  "name": "mini-space-app",
+  "version": "0.0.1",
+  "description": "A retro space display for Miniature World in Victoria, BC",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limbicmedia/mini-world-space-display.git"
+  },
+  "author": "Eric McNiece, Limbic Media <eric@limbicmedia.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limbicmedia/mini-world-space-display/issues"
+  },
+  "homepage": "https://github.com/limbicmedia/mini-world-space-display#readme",
+  "dependencies": {
+    "node-mouse": "0.0.2",
+    "node-omxplayer": "^0.4.0"
+  }
+}
