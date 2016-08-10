@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/limbicmedia/mini-world-space-display#readme",
   "dependencies": {
+    "debounce": "^1.0.0",
+    "jsonfile": "^2.3.1",
     "node-mouse": "0.0.2",
     "node-omxplayer": "^0.4.0"
   }
