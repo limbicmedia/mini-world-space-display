@@ -1,6 +1,6 @@
 {
   "name": "mini-space-app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A retro space display for Miniature World in Victoria, BC",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/limbicmedia/mini-world-space-display#readme",
   "dependencies": {
+    "debounce": "^1.0.0",
+    "fs-extra": "^0.30.0",
     "node-mouse": "0.0.2",
     "node-omxplayer": "^0.4.0"
   }
