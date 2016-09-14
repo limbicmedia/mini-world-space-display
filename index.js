@@ -42,7 +42,13 @@ if(options.noPi === false){
 // Some basic settings
 var seqState = 0;
 var volume = 20; // volume in millibels
-var omxArgs = ['--no-osd', '--blank', '--video_fifo', '1', '--video_queue', '1'];
+var omxArgs = [		// http://elinux.org/Omxplayer#Usage
+  '--no-osd',		// hides subtitle text
+  '--blank',		// creates black underlay to block background
+  '--video_fifo', '1',	// Size of video output fifo in MB
+  '--video_queue', '1',  // Size of video input queue in MB
+  // ...
+];
 
 // Array of video files to use
 var videos = [
