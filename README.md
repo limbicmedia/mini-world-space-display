@@ -19,7 +19,7 @@ Install via NVM (https://github.com/creationix/nvm)
 
 ```sh
 sudo su -
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 ```
 
 Install Node 6
